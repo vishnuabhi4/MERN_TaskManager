@@ -4,10 +4,11 @@
   "description": "task manager server side operations.",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
-  },
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "node index.js",   // for production / Render
+  "dev": "nodemon index.js"   // for local development
+},
   "author": "vishnu v",
   "license": "ISC",
   "dependencies": {
