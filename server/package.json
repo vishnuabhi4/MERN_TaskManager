@@ -6,8 +6,8 @@
   "type": "module",
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js",   // for production / Render
-  "dev": "nodemon index.js"   // for local development
+  "start": "node index.js",
+  "dev": "nodemon index.js",
 },
   "author": "vishnu v",
   "license": "ISC",
